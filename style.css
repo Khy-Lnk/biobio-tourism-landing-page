@@ -1,3 +1,5 @@
+/* 1. html */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,31 +8,31 @@
 }
 
 body {
-    background-color: #f9f9f9; /* Un color de fondo muy suave para el cuerpo de la página */
+    background-color: #f9f9f9; 
 }
 
 /* 2. BARRA DE NAVEGACIÓN (HEADER) */
 .navbar {
     display: flex;
-    justify-content: space-between; /* Logo/Menú a la izq, Iconos a la der */
+    justify-content: space-between; 
     align-items: center;
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #ffffff; 
     padding: 20px 50px;
-    border-bottom: 1px solid #eeeeee; /* Línea separadora sutil abajo */
+    border-bottom: 1px solid #eeeeee; 
 }
 
 .logo {
-    color: #001f3f; /* Azul marino profundo */
+    color: #001f3f; 
     font-size: 24px;
     font-weight: 900;
-    margin-right: 40px; /* Separa el logo del menú */
+    margin-right: 40px; 
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 15px; /* Espacio entre links y separadores */
+    gap: 15px; 
 }
 
 .nav-links a {
@@ -42,11 +44,11 @@ body {
 }
 
 .nav-links a:hover {
-    color: #d1411e; /* Al pasar el mouse se pone naranja */
+    color: #d1411e; 
 }
 
 .separador {
-    color: #d1411e; /* Color naranja/cobre */
+    color: #d1411e; 
     font-size: 16px;
     font-weight: 300;
 }
@@ -60,12 +62,12 @@ body {
 
 /* 3. BOTONES */
 .hero {
-    background-color: #0a2540; /* Color azul mar helado profundo */
+    background-color: #0a2540; 
     height: 90vh; 
     display: flex;
-    justify-content: flex-start; /* Alinea el contenido a la izquierda */
-    align-items: flex-end; /* Empuja el contenido hacia abajo */
-    padding: 80px 100px; /* Da un buen margen desde los bordes */
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    padding: 80px 100px; 
 }
 
 .hero-content {
@@ -73,26 +75,26 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 110px; /* Tamaño masivo imitando a Whale Sound */
+    font-size: 110px; 
     font-weight: 900;
-    line-height: 0.85; /* Junta las líneas del texto "BIOBÍO DESCUBRE" */
-    letter-spacing: -3px; /* Aprieta un poco las letras */
+    line-height: 0.85; 
+    letter-spacing: -3px; 
     margin-bottom: 10px;
 }
 
 .letra-naranja {
-    color: #d1411e; /* La "O" característica */
+    color: #d1411e; 
 }
 
 .hero-content p {
     font-size: 22px;
     font-weight: 500;
-    letter-spacing: 3px; /* Separa las letras del subtítulo */
+    letter-spacing: 3px; 
     color: #e0e0e0;
 }
 /* 4. SECCIÓN PRINCIPAL (HERO) */
 .info-section {
-    background-color: #1a2a3a; /* Un fondo oscuro con tono azulado */
+    background-color: #1a2a3a; 
     color: white;
     padding: 80px 100px;
 }
@@ -106,24 +108,24 @@ body {
 }
 
 .info-columnas {
-    display: flex; /* Pone los dos párrafos uno al lado del otro */
-    gap: 50px; /* Espacio entre las dos columnas de texto */
+    display: flex; 
+    gap: 50px; 
 }
 
 .info-columnas p {
-    flex: 1; /* Hace que ambas columnas midan lo mismo */
+    flex: 1; 
     font-size: 16px;
-    line-height: 1.8; /* Mejora la legibilidad del texto largo */
-    color: #cccccc; /* Un blanco más apagado para no cansar la vista */
+    line-height: 1.8; 
+    color: #cccccc; 
 }
 
 /* 5. PIE DE PÁGINA (FOOTER) */
 .footer {
-    background-color: #ffffff; /* Footer blanco como pediste */
-    color: #001f3f; /* Letras azul oscuro */
+    background-color: #ffffff; 
+    color: #001f3f; 
     padding: 50px 100px;
     display: flex;
-    justify-content: space-between; /* Separa los links a la izq y contacto a la der */
+    justify-content: space-between; 
     align-items: center;
     border-top: 1px solid #eeeeee;
 }
@@ -136,7 +138,7 @@ body {
 }
 
 .footer-contacto {
-    text-align: right; /* Alinea los textos de contacto hacia la derecha */
+    text-align: right; 
 }
 
 .footer-contacto p {
