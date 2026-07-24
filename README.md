@@ -19,6 +19,9 @@ This is a static FrontEnd mockup for a tourism agency in the Biobío region, foc
 ##  How to Run Locally
 
 Since this is a static webpage, you don't need any server or special environment to view it.
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/Khy-Lnk/biobio-tourism-landing-page.git](https://github.com/Khy-Lnk/biobio-tourism-landing-page.git)
 
 ## Author
 * **Yerko T. Hermosilla** - *FronEnding design and layout* - [GitHub Profile](https://github.com/Khy-Lnk)
